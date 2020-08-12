@@ -10,8 +10,8 @@
 --------------------------------------------------------------------------------
 
 * IOSXE
-    * Added ShowStackwiseVirtual
-        * show stackwise-virtual
+    * Added ShowCtsSxpConnectionsVrfBr
+        * show cts sxp connections vrf {vrf} br
 
 --------------------------------------------------------------------------------
                                 Fix
