@@ -8,7 +8,7 @@ from genie.metaparser.util.schemaengine import Any, Optional
 # Schema for:
 #  * 'show_cts_sxp_connections_brief'
 # ===================================
-class Show_Cts_Sxp_Connections_BriefSchema(MetaParser):
+class ShowCtsSxpConnectionsBriefSchema(MetaParser):
     """Schema for show_cts_sxp_connections_brief."""
 
     schema = {
@@ -43,7 +43,7 @@ class Show_Cts_Sxp_Connections_BriefSchema(MetaParser):
 #  * 'show cts sxp connections brief'
 #  * 'Parser for show cts sxp connections vrf {vrf} brief'
 # ===================================
-class Show_Cts_Sxp_Connections_Brief(Show_Cts_Sxp_Connections_BriefSchema):
+class ShowCtsSxpConnectionsBrief(ShowCtsSxpConnectionsBriefSchema):
     """Parser for show cts sxp connections brief"""
     """Parser for show cts sxp connections vrf {vrf} brief"""
 

@@ -78,7 +78,6 @@ CLASS_SKIP = {
         "ShowPlatformTcamUtilization": True, # To be migrated
         "ShowLicense": True, # To be migrated
         "Show_Stackwise_Virtual_Dual_Active_Detection": True, # To be migrated
-        "Show_Cts_Sxp_Connections_Brief": True, # To be migrated
         "ShowSoftwaretab": True, # To be migrated
         "ShowOmpSummary": True, # To be migrated
         "ShowSdwanOmpSummary": True, # To be migrated
