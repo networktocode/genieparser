@@ -6,10 +6,10 @@ from genie.metaparser.util.schemaengine import Any, Optional
 
 # =================================================
 # Schema for:
-#  * 'show_stackwise_virtual_dual_active_detection'
+#  * 'show stackwise-virtual-dual-active-detection'
 # =================================================
-class Show_Stackwise_Virtual_Dual_Active_DetectionSchema(MetaParser):
-    """Schema for show_stackwise_virtual_dual_active_detection."""
+class ShowStackwiseVirtualDualActiveDetectionSchema(MetaParser):
+    """Schema for show stackwise-virtual-dual-active-detection."""
 
     schema = {
         "dad_port": {
@@ -26,10 +26,10 @@ class Show_Stackwise_Virtual_Dual_Active_DetectionSchema(MetaParser):
 
 # =================================================
 # Parser for:
-#  * 'show_stackwise_virtual_dual_active_detection'
+#  * 'show stackwise-virtual-dual-active-detection'
 # =================================================
-class Show_Stackwise_Virtual_Dual_Active_Detection(Show_Stackwise_Virtual_Dual_Active_DetectionSchema):
-    """Parser for show stackwise-virtual dual-active-detection"""
+class ShowStackwiseVirtualDualActiveDetection(ShowStackwiseVirtualDualActiveDetectionSchema):
+    """Parser for show stackwise-virtual-dual-active-detection"""
 
     cli_command = 'show stackwise-virtual dual-active-detection'
 

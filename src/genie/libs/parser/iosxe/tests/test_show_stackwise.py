@@ -2,14 +2,14 @@ import unittest
 from unittest.mock import Mock
 
 from genie.metaparser.util.exceptions import SchemaEmptyParserError
-from genie.libs.parser.iosxe.show_stackwise import Show_Stackwise_Virtual_Dual_Active_Detection
+from genie.libs.parser.iosxe.show_stackwise import ShowStackwiseVirtualDualActiveDetection
 
 
 # ============================================================
-# Unit test for 'show_stackwise_virtual_dual_active_detection'
+# Unit test for 'show stackwise virtual dual active detection'
 # ============================================================
 class test_show_stackwise_virtual_dual_active_detection(unittest.TestCase):
-    """Unit test for 'show_stackwise_virtual_dual_active_detection'"""
+    """Unit test for 'show stackwise virtual dual active detection'"""
 
     maxDiff = None
     empty_output = {'execute.return_value': ''}
