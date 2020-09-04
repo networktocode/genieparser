@@ -96,7 +96,6 @@ CLASS_SKIP = {
         "ShowSdwanAppqoeNatStatistics": True, # To be migrated
         "ShowSdwanAppqoeRmResources": True, # To be migrated
         "ShowSdwanAppqoeTcpoptStatus": True, # To be migrated
-        "ShowApphostingList": True, # To be migrated
         "ShowApRfProfileSummary": True, # To be migrated
         "ShowHwModuleStatus": True, # To be migrated
         "ShowRunInterface": True, # To be migrated
