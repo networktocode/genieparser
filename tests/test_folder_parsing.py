@@ -93,7 +93,6 @@ CLASS_SKIP = {
         "ShowSdwanIpsecOutboundConnections": True, # To be migrated
         "ShowSdwanVersion": True, # To be migrated
         "ShowLispSite": True, # To be migrated
-        "ShowSdwanAppqoeNatStatistics": True, # To be migrated
         "ShowSdwanAppqoeRmResources": True, # To be migrated
         "ShowSdwanAppqoeTcpoptStatus": True, # To be migrated
         "ShowApphostingList": True, # To be migrated
