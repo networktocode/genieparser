@@ -9,48 +9,8 @@ from genie.metaparser.util.exceptions import SchemaEmptyParserError
 
 # Parser
 from genie.libs.parser.iosxe.show_sdwan_appqoe import (
-    ShowSdwanAppqoeTcpoptStatus,
     ShowSdwanAppqoeNatStatistics,
     ShowSdwanAppqoeRmResources)
-
-
-# ============================================
-# unittest for 'show sdwan appqoe tcpopt status'
-# ============================================
-class TestShowSdwanAppqoeTcpoptStatus(unittest.TestCase):
-    device = Device(name='aDevice')
-    maxDiff = None
-    empty_output = {'execute.return_value' : ''}
-    golden_output = {'execute.return_value': '''
-        ==========================================================
-                        TCP-OPT Status
-        ==========================================================
-
-        Status
-        ------
-        TCP OPT Operational State      : RUNNING
-        TCP Proxy Operational State    : RUNNING
-        '''
-        }
-
-    golden_parsed_output = {
-        'status': {
-            'tcp_opt_operational_state': 'RUNNING',
-            'tcp_proxy_operational_state': 'RUNNING'
-            }
-        }
-    
-    def test_empty(self):
-        self.device = Mock(**self.empty_output)
-        obj = ShowSdwanAppqoeTcpoptStatus(device=self.device)
-        with self.assertRaises(SchemaEmptyParserError):
-            parsed_output = obj.parse()
-
-    def test_golden(self):
-        self.device = Mock(**self.golden_output)
-        obj = ShowSdwanAppqoeTcpoptStatus(device=self.device)
-        parsed_output = obj.parse()
-        self.assertEqual(parsed_output,self.golden_parsed_output)
 
 
 # ============================================
