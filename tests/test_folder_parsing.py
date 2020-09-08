@@ -100,7 +100,6 @@ CLASS_SKIP = {
         "ShowApRfProfileSummary": True, # To be migrated
         "ShowHwModuleStatus": True, # To be migrated
         "ShowSdwanVersion": True, # To be migrated
-        "ShowSdwanSoftware": True, # To be migrated
     },
     "ios": {
         "ShowPimNeighbor": True,
