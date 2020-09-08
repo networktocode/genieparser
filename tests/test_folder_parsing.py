@@ -69,7 +69,6 @@ CLASS_SKIP = {
         "ShowAuthenticationSessionsInterface": True,
         "ShowVersion_viptela": True,
         "ShowBfdSummary_viptela": True,
-        "ShowSoftwaretab_viptela": True,
         "ShowRebootHistory_viptela": True,
         "ShowOmpSummary_viptela": True,
         "ShowSystemStatus_viptela": True,
@@ -79,7 +78,6 @@ CLASS_SKIP = {
         "ShowLicense": True, # To be migrated
         "Show_Stackwise_Virtual_Dual_Active_Detection": True, # To be migrated
         "Show_Cts_Sxp_Connections_Brief": True, # To be migrated
-        "ShowSoftwaretab": True, # To be migrated
         "ShowOmpSummary": True, # To be migrated
         "ShowSdwanOmpSummary": True, # To be migrated
         "ShowSdwanSystemStatus": True, # To be migrated

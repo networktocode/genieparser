@@ -1,0 +1,5 @@
+        # VERSION         ACTIVE  DEFAULT  PREVIOUS  CONFIRMED  TIMESTAMP
+        # ---------------------------------------------------------------------------------
+        # 99.99.999-4499  false   false    true      -          2020-06-01T03:30:46-00:00
+        # 99.99.999-4542  false   false    false     -          2020-06-18T06:30:30-00:00
+        # 99.99.999-4567  true    true     false     auto       2020-07-06T01:51:18-00:00
