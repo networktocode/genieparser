@@ -71,7 +71,7 @@ CLASS_SKIP = {
         "ShowBfdSummary_viptela": True,
         "ShowSoftwaretab_viptela": True, # PR submitted
         "ShowRebootHistory_viptela": True,
-        # "ShowOmpSummary_viptela": True, # PR submitted
+        "ShowOmpSummary_viptela": True, # PR submitted
         "ShowSystemStatus_viptela": True,
         "ShowTcpProxyStatistics": True, # PR submitted
         "ShowTcpproxyStatus": True, # PR submitted
@@ -80,7 +80,7 @@ CLASS_SKIP = {
         "Show_Stackwise_Virtual_Dual_Active_Detection": True, # PR submitted
         "Show_Cts_Sxp_Connections_Brief": True, # PR submitted
         "ShowSoftwaretab": True, # PR submitted
-        # "ShowOmpSummary": True, # PR submitted
+        # "ShowSdwanOmpSummary": True, # PR submitted
         # "ShowSdwanOmpSummary": True, # To be migrated
         "ShowSdwanSystemStatus": True, # To be migrated
         "ShowSystemStatus": True, # To be migrated
