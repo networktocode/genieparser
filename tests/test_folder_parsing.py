@@ -80,12 +80,11 @@ CLASS_SKIP = {
         "Show_Stackwise_Virtual_Dual_Active_Detection": True, # PR submitted
         "Show_Cts_Sxp_Connections_Brief": True, # PR submitted
         "ShowSoftwaretab": True, # PR submitted
-        "ShowOmpSummary": True, # To be migrated
-        "ShowSdwanOmpSummary": True, # To be migrated
-        "ShowSdwanSystemStatus": True, # To be migrated
-        "ShowRebootHistory": True, # To be migrated
-        "ShowSdwanRebootHistory": True, # To be migrated
-        "ShowSslProxyStatistics": True, # To be migrated
+        "ShowOmpSummary": True, # PR submitted
+        "ShowSdwanOmpSummary": True, # PR submitted
+        "ShowSdwanSystemStatus": True, # PR submitted
+        "ShowRebootHistory": True, # PR submitted
+        "ShowSdwanRebootHistory": True, # PR submitted
         "ShowSslproxyStatus": True, # To be migrated
         "ShowSdwanIpsecInboundConnections": True, # To be migrated
         "ShowSdwanIpsecLocalsa": True, # To be migrated
