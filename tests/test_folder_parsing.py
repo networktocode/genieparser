@@ -87,9 +87,6 @@ CLASS_SKIP = {
         "ShowSdwanRebootHistory": True, # To be migrated
         "ShowSslProxyStatistics": True, # To be migrated
         "ShowSslproxyStatus": True, # To be migrated
-        "ShowSdwanIpsecInboundConnections": True, # To be migrated
-        "ShowSdwanIpsecLocalsa": True, # To be migrated
-        "ShowSdwanIpsecOutboundConnections": True, # To be migrated
         "ShowSdwanVersion": True, # To be migrated
         "ShowLispSite": True, # To be migrated
         "ShowSdwanAppqoeNatStatistics": True, # To be migrated
