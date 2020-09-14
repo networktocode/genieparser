@@ -69,7 +69,7 @@ CLASS_SKIP = {
         "ShowAuthenticationSessionsInterface": True,
         "ShowVersion_viptela": True,
         "ShowBfdSummary_viptela": True,
-        "ShowSoftwaretab_viptela": True,
+        "ShowSoftwaretab_viptela": True, # PR submitted
         "ShowRebootHistory_viptela": True,
         "ShowOmpSummary_viptela": True,
         "ShowSystemStatus_viptela": True,
@@ -82,7 +82,6 @@ CLASS_SKIP = {
         "ShowOmpSummary": True, # To be migrated
         "ShowSdwanOmpSummary": True, # To be migrated
         "ShowSdwanSystemStatus": True, # To be migrated
-        "ShowSystemStatus": True, # To be migrated
         "ShowRebootHistory": True, # To be migrated
         "ShowSdwanRebootHistory": True, # To be migrated
         "ShowSslProxyStatistics": True, # To be migrated
@@ -98,7 +97,6 @@ CLASS_SKIP = {
         "ShowApphostingList": True, # To be migrated
         "ShowApRfProfileSummary": True, # To be migrated
         "ShowHwModuleStatus": True, # To be migrated
-        "ShowRunInterface": True, # To be migrated
         "ShowSdwanVersion": True, # To be migrated
         "ShowSdwanSoftware": True, # To be migrated
     },
