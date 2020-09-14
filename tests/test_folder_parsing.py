@@ -81,7 +81,6 @@ CLASS_SKIP = {
         "ShowOmpSummary": True, # To be migrated
         "ShowSdwanOmpSummary": True, # To be migrated
         "ShowSdwanSystemStatus": True, # To be migrated
-        "ShowSystemStatus": True, # To be migrated
         "ShowRebootHistory": True, # To be migrated
         "ShowSdwanRebootHistory": True, # To be migrated
         "ShowSslProxyStatistics": True, # To be migrated
@@ -97,7 +96,6 @@ CLASS_SKIP = {
         "ShowApphostingList": True, # To be migrated
         "ShowApRfProfileSummary": True, # To be migrated
         "ShowHwModuleStatus": True, # To be migrated
-        "ShowRunInterface": True, # To be migrated
         "ShowSdwanVersion": True, # To be migrated
         "ShowSdwanSoftware": True, # To be migrated
     },
