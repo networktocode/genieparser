@@ -98,6 +98,7 @@ CLASS_SKIP = {
         "ShowApphostingList": True, # To be migrated
         "ShowApRfProfileSummary": True, # To be migrated
         "ShowRunInterface": True, # To be migrated
+        "ShowRunInterface": True, # To be migrated
         "ShowSdwanVersion": True, # To be migrated
         "ShowSdwanSoftware": True, # To be migrated
     },
